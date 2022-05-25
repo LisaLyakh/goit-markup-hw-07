@@ -19,6 +19,7 @@
         "../sass/model/_modal.scss",
         "../sass/model/_footer.scss"
     ],
+    
     "names": [],
     "file": "main.css"
 }
