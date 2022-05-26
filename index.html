@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
      <nav class="navigation">
        <a href="./index.html" class="navigation__logo"><span class="navigation__web">Web</span>Studio</a>
        <ul class="navigation__site-nav">
-         <li class="navigation__list"><a href="./index.html" class="navigation__link--current">Студия</a></li>
+         <li class="navigation__list"><a href="./index.html" class="navigation__link navigation__link--current">Студия</a></li>
          <li class="navigation__list"><a href="./portfolio.html" class="navigation__link">Портфолио</a></li>
          <li class="navigation__list"><a href="" class="navigation__link">Контакты</a></li>
        </ul>
@@ -379,7 +378,7 @@
       <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
       <form class="form">
         <div class="form__user-name">
-          <label class="form__label" for="user_name"><span class="user-text">Имя</span></label>
+          <label class="form__label" for="user_name"><span class="form__user-text">Имя</span></label>
           <div class="form__input">
             <input class="form__svg" type="text" name="user-name" id="user_name">
             <svg class="form__icon" width="12" height="12">
@@ -388,7 +387,7 @@
           </div>
         </div>
         <div class="form__tel">
-          <label class="form__label" for="user_tel"><span class="user-text">Телефон</span></label>
+          <label class="form__label" for="user_tel"><span class="form__user-text">Телефон</span></label>
           <div class="form__input">
             <input class="form__svg" type="tel" name="user-tel" id="user_tel">
             <svg class="form__icon" width="12" height="12">
@@ -397,9 +396,9 @@
           </div>
         </div>
         <div class="form__email">
-          <label class="form__label" for="user_email"><span class="user-text">Почта</span></label>
-          <div class="form__svg">
-            <input class="form__input" type="email" name="email" id="user_email" >
+          <label class="form__label" for="user_email"><span class="form__user-text">Почта</span></label>
+          <div class="form__input">
+            <input class="form__svg" type="email" name="email" id="user_email" >
             <svg class="form__icon" width="12" height="12">
               <use href="./images/symbol-modal.svg#icon-email"></use>
             </svg>
@@ -414,8 +413,8 @@
         <div class="form__wrap">
           <input class="form__checkbox form__visually" type="checkbox" name="check" id="check">
           <label for="check" class="form__agreement">
-            <span class="form__icon">
-              <svg class="form__svg" width="16" height="15">
+            <span class="form__icon-check">
+              <svg class="form__svg-check" width="16" height="15">
                 <use href="./images/symbol-modal.svg#icon-on"></use>
               </svg>
             </span>
@@ -432,4 +431,3 @@
   <script src="./js/modal.js"></script>
 </body>
 </html>
-  
