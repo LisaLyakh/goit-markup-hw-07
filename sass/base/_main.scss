@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: var(--theme-text);
+  background-color: var(--theme-accent);
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.about-doing {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-text-accent);
+}
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form__visually {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
