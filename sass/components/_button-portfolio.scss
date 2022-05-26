@@ -26,9 +26,10 @@
   border: none;
   padding: 6px 22px;
   &:hover, &:focus {
+    color: var(--theme-accent);
     background-color: var(--theme-button);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color;
+    transition-property: color, background-color;
   }
 }
